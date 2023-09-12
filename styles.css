@@ -1,0 +1,139 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  font-size: 16px;
+  color: blue;
+}
+h3 {
+  text-align: justify;
+  color: #333;
+}
+.container {
+  margin: 30px 0;
+  width: 1000px;
+  display: flex;
+  border-radius: 3px;
+  border: 1px solid black;
+}
+.main-left {
+  width: 35%;
+  background-color: #efebeb;
+  padding: 20px;
+}
+.main-right {
+  width: 65%;
+  padding: 20px;
+}
+.avatar {
+  width: 70%;
+  background-image: none;
+  border-radius: 50%;
+}
+.main-left__avatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.social {
+  display: flex;
+  gap: 6px;
+}
+.list {
+  list-style: none;
+  padding: 0;
+}
+.link {
+  display: block;
+  text-decoration: none;
+  padding: 6px;
+  color: black;
+}
+.font {
+  font-size: 18px;
+  margin-right: 3px;
+}
+.fontt {
+  margin-right: 3px;
+  margin-top: 3px;
+}
+.small {
+  font-size: 14px;
+  margin-right: 4px;
+}
+.mt {
+  display: block;
+  margin-top: 5px;
+}
+.mtt {
+  margin-top: 40px;
+}
+.main-left__certificate,
+.main-left__interest,
+.main-left__career,
+.main-left__skills,
+.main-left__social {
+  margin-top: 30px;
+}
+.linkk {
+  text-decoration: none;
+  display: block;
+  color: black;
+}
+.linkk:hover {
+  color: rgb(152, 104, 17);
+}
+.noClick {
+  cursor: default;
+}
+.spam {
+  font-weight: normal;
+  font-size: 16px;
+}
+.flexx {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+    display: block;
+  }
+  .main-left {
+    width: 94%;
+    background-color: #efebeb;
+    padding: 10px;
+  }
+  .main-right {
+    width: 100%;
+    padding: 10px;
+  }
+  .avatar {
+    width: 50%;
+    background-image: none;
+    border-radius: 50%;
+  }
+  .main-left__avatar {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .personal {
+    width: 95%;
+  }
+  .main-left__interest,
+  .main-left__certificate,
+  .main-left__career {
+    width: 96%;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  .block {
+    display: block;
+  }
+}
